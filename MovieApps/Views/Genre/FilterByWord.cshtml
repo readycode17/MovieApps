@@ -1,0 +1,18 @@
+﻿@model IEnumerable<MovieApp.data.Models.Genre>
+@{
+    ViewData["Title"] = "FilterByLetter";
+}
+
+<h1>FilterByLetter</h1>
+
+<table>
+    @foreach (var item in Model)
+    {
+        <tr>
+            @item.Name
+        </tr>
+
+    }
+    <tr>
+    </tr>
+</table>

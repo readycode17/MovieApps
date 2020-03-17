@@ -1,0 +1,36 @@
+﻿@model IEnumerable<MovieApp.data.Models.Director>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index for Directors</h1>
+
+<table>
+    <tr>
+
+    </tr>
+
+    <tr>
+
+    </tr>
+
+    <tr>
+    </tr>
+    @foreach (var list in Model)
+    {
+        <tr>
+            @list.Firstname
+        </tr> 
+        <tr>
+            @list.Lastname
+        </tr>
+        <tr>
+            @list.AddressId
+        </tr>
+        <tr>
+            @list.HobbyId
+        </tr>
+
+        
+    }
+</table>

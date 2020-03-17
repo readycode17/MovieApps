@@ -1,0 +1,24 @@
+﻿@model IEnumerable<MovieApp.data.Models.Genre>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<table>
+        <tr>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @item.Name
+            </tr>
+
+
+            <tr>
+                @item.Name
+            </tr>
+
+        }
+
+        <h1>Index</h1>
+
+    </table>
